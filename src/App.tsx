@@ -148,7 +148,7 @@ function App() {
       
       <div className="bg-gradient-to-br from-blue-900/50 to-purple-900/50 rounded-3xl p-8 backdrop-blur-sm border border-blue-500/20 space-y-8">
         <section>
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">Introduction</h2>
+          <h2 className="text-3xl font-bold text-blue-400 mb-4">1. Introduction</h2>
           <h3 className="text-2xl font-semibold text-purple-300 mb-3">1.1 Mission Statement</h3>
           <p className="text-gray-200 leading-relaxed mb-6">
             To leverage machine learning to train an AI (Kitt) capable of detecting security risks, scams, rugs, and identifying good projects. Kitt's goal is to help users navigate the crypto ecosystem in a friendly and approachable manner. By providing detailed breakdowns on charts, metrics, and the who, what, where, when, and why of crypto, Kitt aims to reduce risk and promote informed trading decisions for the community.
@@ -156,61 +156,21 @@ function App() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">Kitt's Offerings</h2>
+          <h2 className="text-3xl font-bold text-blue-400 mb-4">2. Kitt's Offerings</h2>
           <p className="text-gray-200 leading-relaxed mb-4">
             Kitt's ecosystem is built around several key platforms and products:
           </p>
           <ul className="space-y-3 text-gray-200 ml-6">
-                      <li><strong className="text-purple-300">Telegram Terminal</strong> – A robust environment for deeper integration and tiered access to Kitt's advanced tools.</li>
+          
+            <li><strong className="text-purple-300">Telegram Terminal</strong> – A robust environment for deeper integration and tiered access to Kitt's advanced tools.</li>
             <li><strong className="text-purple-300">Kitt Analysis & Trust Engines</strong> – The back‐end technologies that process market data, score projects, and filter potential scams or rugs.</li>
             <li><strong className="text-purple-300">Kitt Trading Assistant & Trading Engine</strong> – AI‐driven services to help holders make informed trades, manage risk, and even automate trading strategies.</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">3. Twitter Functionality</h2>
+          <h2 className="text-3xl font-bold text-blue-400 mb-4">3. Telegram Terminal</h2>
           <h3 className="text-2xl font-semibold text-purple-300 mb-3">3.1 Main Purpose</h3>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Promotional Tool & Community Building:</strong> Kitt uses Twitter to build engagement, serve as a Key Opinion Leader (KOL) or influencer, and promote the KS token and ecosystem.
-          </p>
-          <p className="text-gray-200 leading-relaxed mb-6">
-            <strong className="text-purple-300">Frequent, Short‐Form Insights:</strong> Twitter is the home for "bite‐sized" calls, trending analysis, and quick updates.
-          </p>
-
-          <h3 className="text-2xl font-semibold text-purple-300 mb-3">3.2 2hr Top Trending Analysis</h3>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Objective:</strong> Post a concise, metric‐based tweet about a top trending token (older than 2 hours) that has passed basic safety, volume, price, and growth checks.
-          </p>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Process:</strong>
-          </p>
-          <ul className="space-y-2 text-gray-200 ml-6 mb-6">
-            <li>Kitt Analysis Engine fetches over 100 trending tokens.</li>
-            <li>Tokens undergo pass/fail safety checks: liquidity locks, wallet distribution, suspicious wallet activity, etc.</li>
-            <li>A scoring system ranks the best candidates, focusing on synergy bonuses or penalties (see Section 7).</li>
-            <li>Kitt selects one top‐ranked token and composes a tweet under 280 characters, highlighting strengths, resistance points, and potential dump risks.</li>
-          </ul>
-
-          <h3 className="text-2xl font-semibold text-purple-300 mb-3">3.3 4hr Kitt's Calls</h3>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Objective:</strong> Post two picks (older than 4 hours) that have passed safety checks and have strong 4hr trade metrics.
-          </p>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Goal:</strong> Provide potential good returns without risking a "rug to zero." Kitt cannot prevent normal market sell offs but filters out highly risky or manipulated tokens.
-          </p>
-          <p className="text-gray-200 leading-relaxed mb-4">
-            <strong className="text-purple-300">Process:</strong>
-          </p>
-          <ul className="space-y-2 text-gray-200 ml-6 mb-6">
-            <li>Kitt Analysis Engine identifies projects with favorable 4hr metrics.</li>
-            <li>Top 2 picks are posted on Twitter as short calls or recommendations.</li>
-            <li>These calls differ from the 2hr Top Trending Analysis in terms of timeframes and project maturity.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">4. Telegram Terminal</h2>
-          <h3 className="text-2xl font-semibold text-purple-300 mb-3">4.1 Main Purpose</h3>
           <p className="text-gray-200 leading-relaxed mb-4">
             <strong className="text-purple-300">Kitt's Command Center:</strong> Telegram offers deeper integration and serves as a personal assistant format, where users interact with Kitt for analysis, trading tips, and more.
           </p>
@@ -218,7 +178,7 @@ function App() {
             <strong className="text-purple-300">Tiered Access:</strong> Exclusive features unlock with higher KS holdings, making KS a gateway to advanced functionalities.
           </p>
 
-          <h3 className="text-2xl font-semibold text-purple-300 mb-3">4.2 Main Chat</h3>
+          <h3 className="text-2xl font-semibold text-purple-300 mb-3">3.2 Main Chat</h3>
           <p className="text-gray-200 leading-relaxed mb-4">
             <strong className="text-purple-300">Community Interaction:</strong> Kitt participates in conversation, helps set up "raids," and fosters a fun, engaged atmosphere.
           </p>
@@ -228,21 +188,32 @@ function App() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">5. Telegram Tiered Access</h2>
+          <h2 className="text-3xl font-bold text-blue-400 mb-4">4. Telegram Tiered Access</h2>
           <p className="text-gray-200 leading-relaxed mb-6">
             Kitt's features scale with the amount of KS a user holds, ensuring that higher‐tier holders receive more powerful tools and insights.
           </p>
 
           <div className="space-y-6">
             <div className="bg-black/30 rounded-2xl p-6">
-              <h3 className="text-2xl font-semibold text-purple-300 mb-3">5.1 Tier 1: Any KS Holder</h3>
+              <h3 className="text-2xl font-semibold text-purple-300 mb-3">4.1 Tier 1: Any KS Holder</h3>
               <p className="text-gray-200 leading-relaxed">
-                <strong className="text-purple-300">Core Calls:</strong> Mimics Twitter calls but also factors in historical metrics (where Twitter calls focus on 2hr/4hr windows).
+                <strong className="text-purple-300">2hr/4hr Top Trending Analysis:</strong> Pick a concise, metric‐based top trending token (older than 2 hours/4 hours) that has passed basic safety, volume, price, and growth checks. Provide potential good returns without risking a "rug to zero." Kitt cannot prevent normal market sell offs but filters out highly risky or manipulated tokens.
               </p>
+               <p className="text-gray-200 leading-relaxed mb-4">
+            <strong className="text-purple-300">Process:</strong>
+          </p>
+          <ul className="space-y-2 text-gray-200 ml-6 mb-6">
+            <li>Kitt Analysis Engine fetches over 100 trending tokens.</li>
+            <li>Tokens undergo pass/fail safety checks: liquidity locks, wallet distribution, suspicious wallet activity, etc.</li>
+            <li>A scoring system ranks the best candidates, focusing on synergy bonuses or penalties (see Section 7).</li>
+            <li>Kitt selects one top‐ranked token and composes a tweet under 280 characters, highlighting strengths, resistance points, and potential dump risks.</li>
+             <li>4hr calls differ from the 2hr Top Trending Analysis in terms of timeframes and project maturity.</li>
+            <li>Factors in historical metrics</li>
+          </ul>
             </div>
 
             <div className="bg-black/30 rounded-2xl p-6">
-              <h3 className="text-2xl font-semibold text-purple-300 mb-3">5.2 Tier 2: 100,000+ KS</h3>
+              <h3 className="text-2xl font-semibold text-purple-300 mb-3">4.2 Tier 2: 100,000+ KS</h3>
               <p className="text-gray-200 leading-relaxed mb-3">
                 <strong className="text-purple-300">Private, Non‐Personalized Chat:</strong> Interact with Kitt for extended call lists (Top 10 picks for 2hr and 4hr).
               </p>
