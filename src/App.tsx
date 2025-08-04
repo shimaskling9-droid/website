@@ -197,7 +197,7 @@ function App() {
             <div className="bg-black/30 rounded-2xl p-6">
               <h3 className="text-2xl font-semibold text-purple-300 mb-3">4.1 Tier 1: Any KS Holder</h3>
               <p className="text-gray-200 leading-relaxed">
-                <strong className="text-purple-300">2hr/4hr Top Trending Analysis:</strong> Pick a concise, metric‐based top trending token (older than 2 hours/4 hours) that has passed basic safety, volume, price, and growth checks. Provide potential good returns without risking a "rug to zero." Kitt cannot prevent normal market sell offs but filters out highly risky or manipulated tokens.
+                <strong className="text-purple-300">2hr/4hr Top Token Trending Analysis:</strong> Pick a concise, metric‐based top trending token (older than 2 hours/4 hours) that has passed basic safety, volume, price, and growth checks. Provide potential good returns without risking a "rug to zero." Kitt cannot prevent normal market sell offs but filters out highly risky or manipulated tokens.
               </p>
                <p className="text-gray-200 leading-relaxed mb-4">
             <strong className="text-purple-300">Process:</strong>
