@@ -875,38 +875,81 @@ function App() {
           </ul>
         </section>
 
-        <section>
-          <h2 className="text-3xl font-bold text-red-400 mb-4">Roadmap</h2>
-          
-          <div className="overflow-x-auto mb-6">
-            <table className="w-full bg-black/30 rounded-2xl overflow-hidden">
-              <thead className="bg-red-900/50">
-                <tr>
-                  <th className="px-6 py-4 text-left text-orange-300 font-semibold">Phase</th>
-                  <th className="px-6 py-4 text-left text-orange-300 font-semibold">Status</th>
-                  <th className="px-6 py-4 text-left text-orange-300 font-semibold">Key Deliverables</th>
-                </tr>
-              </thead>
-              <tbody className="text-gray-200">
-                <tr className="border-b border-gray-700">
-                  <td className="px-6 py-4 font-semibold text-red-300">Phase 1</td>
-                  <td className="px-6 py-4 text-green-300">Live</td>
-                  <td className="px-6 py-4">Core engine, Telegram trading wrapper, trade memory, feedback loop.</td>
-                </tr>
-                <tr className="border-b border-gray-700">
-                  <td className="px-6 py-4 font-semibold text-red-300">Phase 2</td>
-                  <td className="px-6 py-4 text-yellow-300">In development</td>
-                  <td className="px-6 py-4">Multi-platform rollout, dynamic position sizing, cross-exchange order routing.</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 font-semibold text-red-300">Phase 3</td>
-                  <td className="px-6 py-4 text-blue-300">Planned</td>
-                  <td className="px-6 py-4">Adaptive risk tiers for holders, AI-generated strategy marketplace, regulatory reporting suite.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
+<section>
+  <h2 className="text-3xl font-bold text-red-400 mb-4">Roadmap</h2>
+
+  <div className="overflow-x-auto mb-6">
+    <table className="w-full bg-black/30 rounded-2xl overflow-hidden">
+      <thead className="bg-red-900/50">
+        <tr>
+          <th className="px-6 py-4 text-left text-orange-300 font-semibold">Phase</th>
+          <th className="px-6 py-4 text-left text-orange-300 font-semibold">Status</th>
+          <th className="px-6 py-4 text-left text-orange-300 font-semibold">Scope</th>
+          <th className="px-6 py-4 text-left text-orange-300 font-semibold">Key Milestones</th>
+        </tr>
+      </thead>
+      <tbody className="text-gray-200">
+        {/* Phase 1 */}
+        <tr className="border-b border-gray-700">
+          <td className="px-6 py-4 font-semibold text-red-300 whitespace-nowrap">Phase&nbsp;1</td>
+          <td className="px-6 py-4 text-green-300 whitespace-nowrap">Live</td>
+          <td className="px-6 py-4 whitespace-nowrap">Internal capital only</td>
+          <td className="px-6 py-4">
+            <ul className="list-disc list-inside space-y-1">
+              <li>Kitt trades with treasury funds</li>
+              <li>Every entry, exit, and rationale posted in Telegram</li>
+              <li>Profit‑card recap after each closed trade</li>
+              <li>Continues until the community approves live‑capital readiness</li>
+            </ul>
+          </td>
+        </tr>
+
+        {/* Phase 2 */}
+        <tr className="border-b border-gray-700">
+          <td className="px-6 py-4 font-semibold text-red-300 whitespace-nowrap">Phase&nbsp;2</td>
+          <td className="px-6 py-4 text-yellow-300 whitespace-nowrap">In preparation</td>
+          <td className="px-6 py-4 whitespace-nowrap">Controlled user onboarding</td>
+          <td className="px-6 py-4">
+            <ul className="list-disc list-inside space-y-1">
+              <li>Autotrading opens to holders</li>
+              <li>One concurrent position per user, conservative sizing</li>
+              <li>Real‑time monitoring and feedback loop remains active</li>
+            </ul>
+          </td>
+        </tr>
+
+        {/* Phase 3 */}
+        <tr className="border-b border-gray-700">
+          <td className="px-6 py-4 font-semibold text-red-300 whitespace-nowrap">Phase&nbsp;3</td>
+          <td className="px-6 py-4 text-blue-300 whitespace-nowrap">Planned</td>
+          <td className="px-6 py-4 whitespace-nowrap">Scaled user capacity</td>
+          <td className="px-6 py-4">
+            <ul className="list-disc list-inside space-y-1">
+              <li>Telegram bot supports two to five simultaneous trades per user</li>
+              <li>Adaptive risk tiers introduced</li>
+              <li>Additional analytics modules activated</li>
+            </ul>
+          </td>
+        </tr>
+
+        {/* Phase 4 */}
+        <tr>
+          <td className="px-6 py-4 font-semibold text-red-300 whitespace-nowrap">Phase&nbsp;4</td>
+          <td className="px-6 py-4 text-blue-300 whitespace-nowrap">Planned</td>
+          <td className="px-6 py-4 whitespace-nowrap">Full ecosystem rollout</td>
+          <td className="px-6 py-4">
+            <ul className="list-disc list-inside space-y-1">
+              <li>Launch of web dashboard with portfolio views, strategy toggles, and performance analytics</li>
+              <li>Telegram assistant reaches feature parity with the website</li>
+              <li>Cross‑platform API for future exchange integrations</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 
         <section>
           <h2 className="text-3xl font-bold text-red-400 mb-4">Benefits to $KS Holders</h2>
