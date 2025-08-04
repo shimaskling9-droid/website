@@ -161,8 +161,7 @@ function App() {
             Kitt's ecosystem is built around several key platforms and products:
           </p>
           <ul className="space-y-3 text-gray-200 ml-6">
-            <li><strong className="text-purple-300">Twitter Engagement</strong> – A platform to reach a wider audience, drive awareness for the KS token, and deliver short, frequent analytical posts.</li>
-            <li><strong className="text-purple-300">Telegram Terminal</strong> – A robust environment for deeper integration and tiered access to Kitt's advanced tools.</li>
+                      <li><strong className="text-purple-300">Telegram Terminal</strong> – A robust environment for deeper integration and tiered access to Kitt's advanced tools.</li>
             <li><strong className="text-purple-300">Kitt Analysis & Trust Engines</strong> – The back‐end technologies that process market data, score projects, and filter potential scams or rugs.</li>
             <li><strong className="text-purple-300">Kitt Trading Assistant & Trading Engine</strong> – AI‐driven services to help holders make informed trades, manage risk, and even automate trading strategies.</li>
           </ul>
