@@ -12,15 +12,24 @@ function App() {
 
   const SocialButtons = () => (
     <div className="flex gap-4">
-      <a href={socialLinks.twitter} className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
+      <a href={socialLinks.twitter} 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
         <Twitter size={20} />
         Twitter
       </a>
-      <a href={socialLinks.telegram} className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
+      <a href={socialLinks.telegram} 
+         target="_blank"
+      rel="noopener noreferrer"
+        className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
         <MessageCircle size={20} />
         Telegram
       </a>
-      <a href={socialLinks.dexscreener} className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
+      <a href={socialLinks.dexscreener} 
+         target="_blank"
+      rel="noopener noreferrer"
+        className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105 shadow-lg">
         <BarChart3 size={20} />
         Dexscreener
       </a>
