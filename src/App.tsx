@@ -5,9 +5,9 @@ function App() {
   const [activeTab, setActiveTab] = useState('home');
 
   const socialLinks = {
-    twitter: '#',
-    telegram: '#',
-    dexscreener: '#'
+    twitter: 'https://x.com/KittySpinCTO',
+    telegram: 'https://t.me/kittyspin_cto',
+    dexscreener: 'https://dexscreener.com/solana/ayprnm865sjhbzvcmg6mhge3hducx9jv8jfbftqe9prv'
   };
 
   const SocialButtons = () => (
@@ -34,7 +34,7 @@ function App() {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10">
           <img 
-            src="/new_banner.jpg" 
+            src="/banner6.jpg" 
             alt="Kitt AI - Cybercat in Alley" 
             className="w-full h-96 object-contain rounded-2xl mb-8"
           />
@@ -44,7 +44,7 @@ function App() {
               <h1 className="text-6xl font-bold text-white">Kitt AI</h1>
             </div>
             <p className="text-2xl text-purple-200 mb-6 max-w-3xl mx-auto leading-relaxed">
-              From the depths of code, a chibi girl blinked into the Abstract Chain.<br/>
+              From the depths of code, a chibi girl blinked into the Solana Blockchain.<br/>
               Small, curious, and already smarter than most traders.<br/>
               She learns faster than the market moves, adapting with every chart.
             </p>
@@ -1039,7 +1039,7 @@ function App() {
             <SocialButtons />
           </div>
           <p className="text-gray-400">
-            © 2025 Kitt AI. From the depths of code to the Abstract Chain.
+            © 2025 Kitt AI. From the depths of code to the Solana Blockchain.
           </p>
         </div>
       </footer>
