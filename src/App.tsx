@@ -39,7 +39,7 @@ function App() {
   const HomePage = () => (
     <div className="space-y-16">
       {/* Hero Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[rgb(88,28,135)] via-[rgb(0,22,88)] to-[rgb(49,46,129)] p-8">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[rgb(88,28,135)] via-[rgb(0,22,88)] to-[rgb(88,28,135)] p-8">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10">
           <img 
