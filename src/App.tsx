@@ -105,7 +105,7 @@ function App() {
             $KS Token
           </h2>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            $KS is the native utility token that fuels Kitt's AI operations.
+            $KS is the native utility token that fuels Kitt's AI operations. <br />
             
             From data streaming to auto-trading, KS tokens unlock features, prioritize access, and sustain her growth.
           </p>
