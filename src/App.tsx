@@ -67,40 +67,54 @@ function App() {
         </div>
       </div>
 
-     {/* What is Kitt AI */}
-<div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-8 sm:p-12 backdrop-blur-sm border border-purple-500/20">
-  <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 leading-tight">
+{/* What is Kitt AI (texto ~60% no desktop, mobile otimizado) */}
+<div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-6 md:p-10 lg:p-12 backdrop-blur-sm border border-purple-500/20">
+  <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 md:mb-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 leading-tight">
     What is Kitt AI?
   </h2>
-  <div className="grid md:grid-cols-2 gap-12 items-center">
-    <div className="space-y-8">
-      <p className="text-lg sm:text-xl text-gray-200 leading-relaxed sm:leading-loose">
+
+  <div className="grid gap-8 lg:gap-12 lg:grid-cols-12 items-center">
+    {/* Coluna de texto (60% no desktop) */}
+    <div className="lg:col-span-7 space-y-8">
+      <p className="text-base md:text-lg lg:text-xl text-gray-200 leading-relaxed md:leading-loose">
         Kitt AI is your Personal Crypto Security and Trading Assistant, leveraging machine learning to detect
         security risks, scams, rugs, and identify good projects. Kitt helps users navigate the crypto ecosystem in a
         friendly and approachable manner.
       </p>
-      <div className="space-y-5 sm:space-y-6">
-        <div className="flex items-center gap-4">
-          <Shield className="text-green-400" size={28} />
-          <span className="text-lg sm:text-xl text-gray-200">Advanced Security Analysis</span>
+
+      {/* Itens – mantidos grandes e respirando bem, mas compactos no mobile */}
+      <div className="space-y-5 md:space-y-6">
+        <div className="flex items-start gap-4">
+          <Shield className="text-green-400 flex-shrink-0" size={28} />
+          <span className="text-gray-200 text-lg md:text-xl">Advanced Security Analysis</span>
         </div>
-        <div className="flex items-center gap-4">
-          <Brain className="text-blue-400" size={28} />
-          <span className="text-lg sm:text-xl text-gray-200">AI-Powered Trading Insights</span>
+        <div className="flex items-start gap-4">
+          <Brain className="text-blue-400 flex-shrink-0" size={28} />
+          <span className="text-gray-200 text-lg md:text-xl">AI-Powered Trading Insights</span>
         </div>
-        <div className="flex items-center gap-4">
-          <TrendingUp className="text-purple-400" size={28} />
-          <span className="text-lg sm:text-xl text-gray-200">Real-time Market Calls</span>
+        <div className="flex items-start gap-4">
+          <TrendingUp className="text-purple-400 flex-shrink-0" size={28} />
+          <span className="text-gray-200 text-lg md:text-xl">Real-time Market Calls</span>
         </div>
-        <div className="flex items-center gap-4">
-          <Zap className="text-yellow-400" size={28} />
-          <span className="text-lg sm:text-xl text-gray-200">Automated Trading Engine</span>
+        <div className="flex items-start gap-4">
+          <Zap className="text-yellow-400 flex-shrink-0" size={28} />
+          <span className="text-gray-200 text-lg md:text-xl">Automated Trading Engine</span>
         </div>
       </div>
     </div>
-    <div className="space-y-6">
-      <img src="/totoro2.png" alt="Totoro" className="w-full h-auto object-contain rounded-2xl shadow-lg" />
-      <img src="/moon2.png" alt="Moon" className="w-full h-auto object-contain rounded-2xl shadow-lg" />
+
+    {/* Coluna de imagens (40% no desktop) */}
+    <div className="lg:col-span-5 space-y-6">
+      <img
+        src="/totoro2.png"
+        alt="Totoro"
+        className="w-full h-auto object-contain rounded-2xl shadow-lg max-h-64 sm:max-h-72 lg:max-h-[22rem]"
+      />
+      <img
+        src="/moon2.png"
+        alt="Moon"
+        className="w-full h-auto object-contain rounded-2xl shadow-lg max-h-64 sm:max-h-72 lg:max-h-[22rem]"
+      />
     </div>
   </div>
 </div>
