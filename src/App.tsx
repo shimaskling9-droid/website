@@ -69,7 +69,7 @@ function App() {
 
       {/* What is Kitt AI */}
       <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-purple-500/20">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
+        <h2 className="text-5xl sm:text-6xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
           What is Kitt AI?
         </h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
