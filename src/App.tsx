@@ -67,43 +67,44 @@ function App() {
         </div>
       </div>
 
-      {/* What is Kitt AI */}
-      <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-purple-500/20">
-        <h2 className="text-5xl sm:text-6xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
-          What is Kitt AI?
-        </h2>
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6">
-            <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
-              Kitt AI is your Personal Crypto Security and Trading Assistant, leveraging machine learning to detect
-              security risks, scams, rugs, and identify good projects. Kitt helps users navigate the crypto ecosystem in a
-              friendly and approachable manner.
-            </p>
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <Shield className="text-green-400" size={24} />
-                <span className="text-gray-200">Advanced Security Analysis</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Brain className="text-blue-400" size={24} />
-                <span className="text-gray-200">AI-Powered Trading Insights</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <TrendingUp className="text-purple-400" size={24} />
-                <span className="text-gray-200">Real-time Market Calls</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Zap className="text-yellow-400" size={24} />
-                <span className="text-gray-200">Automated Trading Engine</span>
-              </div>
-            </div>
-          </div>
-          <div className="space-y-4">
-            <img src="/totoro2.png" alt="Totoro" className="w-full h-auto object-contain rounded-2xl" />
-            <img src="/moon2.png" alt="Moon" className="w-full h-auto object-contain rounded-2xl" />
-          </div>
+     {/* What is Kitt AI */}
+<div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-8 sm:p-12 backdrop-blur-sm border border-purple-500/20">
+  <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 leading-tight">
+    What is Kitt AI?
+  </h2>
+  <div className="grid md:grid-cols-2 gap-12 items-center">
+    <div className="space-y-8">
+      <p className="text-lg sm:text-xl text-gray-200 leading-relaxed sm:leading-loose">
+        Kitt AI is your Personal Crypto Security and Trading Assistant, leveraging machine learning to detect
+        security risks, scams, rugs, and identify good projects. Kitt helps users navigate the crypto ecosystem in a
+        friendly and approachable manner.
+      </p>
+      <div className="space-y-5 sm:space-y-6">
+        <div className="flex items-center gap-4">
+          <Shield className="text-green-400" size={28} />
+          <span className="text-lg sm:text-xl text-gray-200">Advanced Security Analysis</span>
+        </div>
+        <div className="flex items-center gap-4">
+          <Brain className="text-blue-400" size={28} />
+          <span className="text-lg sm:text-xl text-gray-200">AI-Powered Trading Insights</span>
+        </div>
+        <div className="flex items-center gap-4">
+          <TrendingUp className="text-purple-400" size={28} />
+          <span className="text-lg sm:text-xl text-gray-200">Real-time Market Calls</span>
+        </div>
+        <div className="flex items-center gap-4">
+          <Zap className="text-yellow-400" size={28} />
+          <span className="text-lg sm:text-xl text-gray-200">Automated Trading Engine</span>
         </div>
       </div>
+    </div>
+    <div className="space-y-6">
+      <img src="/totoro2.png" alt="Totoro" className="w-full h-auto object-contain rounded-2xl shadow-lg" />
+      <img src="/moon2.png" alt="Moon" className="w-full h-auto object-contain rounded-2xl shadow-lg" />
+    </div>
+  </div>
+</div>
+
 
       {/* $KS Token */}
       <div className="bg-gradient-to-br from-yellow-900/50 to-orange-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-yellow-500/20">
