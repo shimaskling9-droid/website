@@ -1056,13 +1056,9 @@ function App() {
         <img
           src={`/${img}`}
           alt={`KS Story ${index + 1}`}
-          className="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  ))}
-</div>
-
+          className="w-full h-full object-cover" />
+            </div>
+          </div>
         ))}
       </div>
     </div>
