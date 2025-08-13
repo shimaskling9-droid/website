@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Twitter, MessageCircle, BarChart3, Sparkles, Shield, Brain, TrendingUp, Zap } from 'lucide-react';
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'home' | 'whitepaper' | 'guide' | 'trading'>('home');
+ const [activeTab, setActiveTab] = useState<'home' | 'whitepaper' | 'guide' | 'trading' | 'history'>('home');
 
   const socialLinks = {
     twitter: 'https://x.com/KittySpinCTO',
@@ -1000,6 +1000,64 @@ function App() {
       </div>
     </div>
  );
+ // ==================== KS HISTORY (nova aba) ====================
+  const KSHistoryPage = () => (
+    <div className="max-w-4xl mx-auto space-y-8">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
+        KS History
+      </h1>
+
+      {/* Bloco inicial que você enviou — pode editar depois */}
+      <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-purple-500/20">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 tracking-tight">
+          What is Kitt AI?
+        </h2>
+
+        <div className="grid md:grid-cols-[1.2fr_0.8fr] items-center gap-6 sm:gap-10">
+          <div className="space-y-6">
+            <p className="text-xl sm:text-[1.35rem] text-gray-100 leading-relaxed">
+              Kitt AI is your Personal Crypto Security and Trading Assistant, leveraging machine learning to detect
+              security risks, scams, rugs, and identify good projects. Kitt helps users navigate the crypto ecosystem in a
+              friendly and approachable manner.
+            </p>
+
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <Shield className="text-green-400" size={30} />
+                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Advanced Security Analysis</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <Brain className="text-blue-400" size={30} />
+                <span className="text-gray-50 text-xl sm:text-2xl font-medium">AI-Powered Trading Insights</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <TrendingUp className="text-purple-400" size={30} />
+                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Real-time Market Calls</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <Zap className="text-yellow-400" size={30} />
+                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Automated Trading Engine</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center justify-center gap-5">
+            <img
+              src="/totoro2.png"
+              alt="Totoro"
+              className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
+            />
+            <img
+              src="/moon3.png"
+              alt="Moon"
+              className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
@@ -1010,6 +1068,8 @@ function App() {
         return <StarterGuidePage />;
       case 'trading':
         return <TradingBotPage />;
+      case 'history':
+        return <KSHistoryPage />;
       default:
         return <HomePage />;
     }
@@ -1048,7 +1108,9 @@ function App() {
               { id: 'home', label: 'Home', icon: '🏠' },
               { id: 'whitepaper', label: 'Whitepaper', icon: '📄' },
               { id: 'guide', label: 'Starter Guide', icon: '🚀' },
-              { id: 'trading', label: 'Trading Bot', icon: '🤖' }
+              { id: 'trading', label: 'Trading Bot', icon: '🤖' },
+              // Nova aba depois de Trading Bot:
+              { id: 'history', label: 'KS History', icon: '📜' }, // troque para 'KS Story' se preferir tom narrativo
             ].map((tab) => (
               <button
                 key={tab.id}
