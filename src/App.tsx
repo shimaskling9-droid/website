@@ -1027,7 +1027,9 @@ function App() {
       {/* Texto principal */}
       <div className="space-y-5">
         <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
-          Before there was Kitt, there was <strong>her</strong>. The Spinning Kitty.
+          Before there was Kitt, there was her. <span className="text-pink-300 font-semibold">The Spinning Kitty</span>.
+        </p>
+        <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
           Born from memes, chaos, and pure internet magic, she didn’t just spin… she pulled us all into her orbit.
         </p>
         <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
