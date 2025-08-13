@@ -112,7 +112,7 @@ function App() {
         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
       />
       <img
-        src="/moon2.png"
+        src="/moon3.png"
         alt="Moon"
         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
       />
