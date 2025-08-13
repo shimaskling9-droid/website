@@ -1014,7 +1014,7 @@ function App() {
       <img
         src="/spinning.gif"
         alt="Spinning Kitty Tribute"
-        className="w-full max-w-[240px] sm:max-w-[320px] h-auto object-contain rounded-2xl shadow-lg"
+        className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl shadow-lg"
       />
     </div>
 
