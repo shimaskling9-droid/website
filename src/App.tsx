@@ -1000,63 +1000,72 @@ function App() {
       </div>
     </div>
  );
- // ==================== KS HISTORY (nova aba) ====================
-  const KSHistoryPage = () => (
-    <div className="max-w-4xl mx-auto space-y-8">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
-        KS History
-      </h1>
+// ==================== KS STORY (nova aba) ====================
+const KSStoryPage = () => (
+  <div className="max-w-4xl mx-auto space-y-8">
+    <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-500">
+      KS Story – A Tribute to the Spinning Kitty
+    </h1>
 
-      {/* Bloco inicial que você enviou — pode editar depois */}
-      <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-purple-500/20">
-        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 tracking-tight">
-          What is Kitt AI?
-        </h2>
+    <div className="bg-gradient-to-br from-pink-900/60 to-purple-900/60 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-pink-500/20 space-y-8">
 
-        <div className="grid md:grid-cols-[1.2fr_0.8fr] items-center gap-6 sm:gap-10">
-          <div className="space-y-6">
-            <p className="text-xl sm:text-[1.35rem] text-gray-100 leading-relaxed">
-              Kitt AI is your Personal Crypto Security and Trading Assistant, leveraging machine learning to detect
-              security risks, scams, rugs, and identify good projects. Kitt helps users navigate the crypto ecosystem in a
-              friendly and approachable manner.
-            </p>
+      {/* Foto de abertura */}
+      <img
+        src="/moon3.jpg"
+        alt="Spinning Kitty Tribute"
+        className="w-full h-auto object-contain rounded-2xl mx-auto"
+      />
 
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <Shield className="text-green-400" size={30} />
-                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Advanced Security Analysis</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Brain className="text-blue-400" size={30} />
-                <span className="text-gray-50 text-xl sm:text-2xl font-medium">AI-Powered Trading Insights</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <TrendingUp className="text-purple-400" size={30} />
-                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Real-time Market Calls</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Zap className="text-yellow-400" size={30} />
-                <span className="text-gray-50 text-xl sm:text-2xl font-medium">Automated Trading Engine</span>
-              </div>
-            </div>
-          </div>
+      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
+        Before there was Kitt, there was <strong>her</strong> — the Spinning Kitty.
+        Born from memes, chaos, and pure internet magic, she didn’t just spin…
+        she pulled us all into her orbit.
+      </p>
 
-          <div className="flex flex-col items-center justify-center gap-5">
-            <img
-              src="/totoro2.png"
-              alt="Totoro"
-              className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
-            />
-            <img
-              src="/moon3.png"
-              alt="Moon"
-              className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
-            />
-          </div>
-        </div>
-      </div>
+      {/* Segunda imagem */}
+      <img
+        src="/moon3.jpg"
+        alt="Memes and Chaos"
+        className="w-full h-auto object-contain rounded-2xl mx-auto"
+      />
+
+      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
+        We laughed, we memed, we spammed timelines.
+        Every spin was a statement, every joke a piece of the lore.
+      </p>
+
+      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
+        She wasn’t AI. She wasn’t code. She was community.
+        She was the spark that lit the path we walk today.
+      </p>
+
+      {/* Terceira imagem */}
+      <img
+        src="/moon3.jpg"
+        alt="Community Spirit"
+        className="w-full h-auto object-contain rounded-2xl mx-auto"
+      />
+
+      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
+        From those wild, early days to the polished, AI Kitt you see now,
+        it’s all connected. The Kitty still spins… just in a whole new way.
+      </p>
+
+      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed font-semibold">
+        Here’s to the origins, the old memes, and the journey that brought us here.
+        <br />The Kitty Keeps Spinning!
+      </p>
+
+      {/* Imagem final */}
+      <img
+        src="/moon3.jpg"
+        alt="The Kitty Keeps Spinning"
+        className="w-full h-auto object-contain rounded-2xl mx-auto"
+      />
     </div>
-  );
+  </div>
+);
+
 
   const renderContent = () => {
     switch (activeTab) {
