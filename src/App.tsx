@@ -1005,7 +1005,7 @@ function App() {
 const KSStoryPage = () => (
   <div className="max-w-4xl mx-auto space-y-8">
     <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-500">
-      KS Story – A Tribute to the Spinning Kitty
+      KS Story – A Tribute to the Spinning Kittys
     </h1>
 
     <div className="bg-gradient-to-br from-pink-900/60 to-purple-900/60 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-pink-500/20 space-y-8">
