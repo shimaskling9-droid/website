@@ -1014,7 +1014,7 @@ function App() {
       <img
         src="/spinning.gif"
         alt="Spinning Kitty Tribute"
-        className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl shadow-lg"
+        className="w-full max-w-[240px] sm:max-w-[280px] h-auto object-contain rounded-2xl shadow-lg"
       />
     </div>
     <div className="bg-gradient-to-br from-pink-950/70 via-pink-900/60 to-purple-900/60 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-pink-500/20 space-y-8 shadow-[0_0_40px_-15px_rgba(236,72,153,0.35)]">
