@@ -1035,8 +1035,8 @@ function App() {
           She was the spark that lit the path we walk today.
         </p>
         <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
-          From those wild, early days to the polished, AI Kitt you see now, it’s all connected.
-          The Kitty still spins… just in a whole new way.
+          From those wild, early days to the polished, Kitt AI you see now, it’s all connected.
+    
         </p>
         <p className="text-lg sm:text-xl text-pink-100 leading-relaxed font-semibold">
           Here’s to the origins, the old memes, and the journey that brought us here.
