@@ -1000,53 +1000,72 @@ function App() {
       </div>
     </div>
  );
- // ==================== KS STORY (nova aba) ====================
-const KSHistoryPage = () => (
+
+  // 4) Nova página KS Story com tema pink/rosado escuro,
+
+  const KSHistoryPage = () => (
   <div className="max-w-4xl mx-auto space-y-8">
-    <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-500">
+    <h1 className="text-3xl sm:text-4xl font-bold text-center mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-500 tracking-tight">
       KS Story – A Tribute to the Spinning Kitty
     </h1>
 
-    <div className="bg-gradient-to-br from-pink-900/60 to-purple-900/60 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-pink-500/20 space-y-8">
-
-      {/* Foto de abertura */}
+    {/* Imagem de abertura */}
+    <div className="flex justify-center">
       <img
-        src="/moon3.png"
-        alt="Spinning Kitty Tributes"
-        className="w-full h-auto object-contain rounded-2xl mx-auto"
+        src="/moon3.jpg"
+        alt="Spinning Kitty Tribute"
+        className="w-full max-w-[320px] sm:max-w-[420px] h-auto object-contain rounded-2xl shadow-lg"
       />
+    </div>
 
-      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
-        Before there was Kitt, there was <strong>her</strong> — the Spinning Kitty.
-        Born from memes, chaos, and pure internet magic, she didn’t just spin…
-        she pulled us all into her orbit.
-      </p>
+    {/* Texto introdutório */}
+    <p className="text-center text-sm text-pink-200/80">
+      Before Kitt, there was the Spinning Kitty — this page is our homage.
+    </p>
 
+    <div className="bg-gradient-to-br from-pink-950/70 via-pink-900/60 to-purple-900/60 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-pink-500/20 space-y-8 shadow-[0_0_40px_-15px_rgba(236,72,153,0.35)]">
+      {/* Texto principal */}
+      <div className="space-y-5">
+        <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
+          Before there was Kitt, there was <strong>her</strong>. The Spinning Kitty.
+          Born from memes, chaos, and pure internet magic, she didn’t just spin… she pulled us all into her orbit.
+        </p>
+        <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
+          We laughed, we memed, we spammed timelines.
+          Every spin was a statement, every joke a piece of the lore.
+        </p>
+        <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
+          She wasn’t AI. She wasn’t code. She was <span className="text-pink-300 font-semibold">community</span>.
+          She was the spark that lit the path we walk today.
+        </p>
+        <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
+          From those wild, early days to the polished, AI Kitt you see now, it’s all connected.
+          The Kitty still spins… just in a whole new way.
+        </p>
+        <p className="text-lg sm:text-xl text-pink-100 leading-relaxed font-semibold">
+          Here’s to the origins, the old memes, and the journey that brought us here.
+          <br />
+          <span className="text-pink-300">The Kitty Keeps Spinning!</span>
+        </p>
+      </div>
 
-
-      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
-        We laughed, we memed, we spammed timelines.
-        Every spin was a statement, every joke a piece of the lore.
-      </p>
-
-      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
-        She wasn’t AI. She wasn’t code. She was community.
-        She was the spark that lit the path we walk today.
-    
-
-      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
-        From those wild, early days to the polished, AI Kitt you see now,
-        it’s all connected. The Kitty still spins… just in a whole new way.
-      </p>
-
-      <p className="text-lg sm:text-xl text-gray-100 leading-relaxed font-semibold">
-        Here’s to the origins, the old memes, and the journey that brought us here.
-        <br />The Kitty Keeps Spinning!
-      </p>
-      />
+      {/* Grade de 4 imagens lado a lado */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        {[1, 2, 3, 4].map((num) => (
+          <div
+            key={num}
+            className="rounded-xl overflow-hidden bg-pink-900/30 border border-pink-500/20"
+          >
+            <div className="aspect-[4/3]">
+              <img src="/moon3.jpg" alt={`KS Story ${num}`} className="w-full h-full object-cover" />
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   </div>
 );
+
 
 
   const renderContent = () => {
@@ -1101,7 +1120,7 @@ const KSHistoryPage = () => (
               { id: 'guide', label: 'Starter Guide', icon: '🚀' },
               { id: 'trading', label: 'Trading Bot', icon: '🤖' },
               // Nova aba depois de Trading Bot:
-              { id: 'history', label: 'KS Story', icon: '📖' }, // troque para 'KS Story' se preferir tom narrativo
+              { id: 'history', label: 'KS Story', icon: '💖' }, // troque para 'KS Story' se preferir tom narrativo
             ].map((tab) => (
               <button
                 key={tab.id}
