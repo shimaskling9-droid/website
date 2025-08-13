@@ -1047,7 +1047,7 @@ function App() {
 
    {/* Grade de 4 imagens lado a lado */}
 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-  {["moon1.png", "moon2.png", "moon3.png", "moon4.png"].map((img, index) => (
+  {["1.gif", "2.gif", "3.gif", "4.gif"].map((img, index) => (
     <div
       key={index}
       className="rounded-xl overflow-hidden bg-pink-900/30 border border-pink-500/20"
