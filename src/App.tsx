@@ -1011,7 +1011,7 @@ const KSHistoryPage = () => (
 
       {/* Foto de abertura */}
       <img
-        src="/moon3.jpg"
+        src="/moon3.png"
         alt="Spinning Kitty Tribute"
         className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
@@ -1024,7 +1024,7 @@ const KSHistoryPage = () => (
 
       {/* Segunda imagem */}
       <img
-        src="/moon3.jpg"
+        src="/moon3.png"
         alt="Memes and Chaos"
         className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
@@ -1041,7 +1041,7 @@ const KSHistoryPage = () => (
 
       {/* Terceira imagem */}
       <img
-        src="/moon3.jpg"
+        src="/moon3.png"
         alt="Community Spirit"
         className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
@@ -1058,7 +1058,7 @@ const KSHistoryPage = () => (
 
       {/* Imagem final */}
       <img
-        src="/moon3.jpg"
+        src="/moon3.png"
         alt="The Kitty Keeps Spinning"
         className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
