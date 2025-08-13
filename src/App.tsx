@@ -1053,7 +1053,7 @@ function App() {
             className="rounded-xl overflow-hidden bg-pink-900/30 border border-pink-500/20"
           >
             <div className="aspect-[4/3]">
-              <img src="/moon3.jpg" alt={`KS Story ${num}`} className="w-full h-full object-cover" />
+              <img src="/moon3.png" alt={`KS Story ${num}`} className="w-full h-full object-cover" />
             </div>
           </div>
         ))}
