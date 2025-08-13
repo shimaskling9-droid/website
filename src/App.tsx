@@ -1037,7 +1037,7 @@ function App() {
           Every spin was a statement, every joke a piece of the lore.
         </p>
         <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
-          She wasn’t AI. She wasn’t code. She was <span className="text-pink-300 font-semibold">community</span>.
+          She wasn’t AI. She wasn’t code. She was <span className="text-pink-300 font-semibold">Community</span>.
           She was the spark that lit the path we walk today.
         </p>
         <p className="text-lg sm:text-xl text-pink-50/95 leading-relaxed">
