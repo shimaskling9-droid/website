@@ -1000,7 +1000,8 @@ function App() {
       </div>
     </div>
  );
-// ==================== KS STORY (nova aba) ====================
+
+  // ==================== KS STORY (nova aba) ====================
 const KSStoryPage = () => (
   <div className="max-w-4xl mx-auto space-y-8">
     <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-500">
