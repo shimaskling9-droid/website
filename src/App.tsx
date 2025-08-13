@@ -1012,8 +1012,8 @@ const KSHistoryPage = () => (
       {/* Foto de abertura */}
       <img
         src="/moon3.png"
-        alt="Spinning Kitty Tribute"
-         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
+        alt="Spinning Kitty Tributes"
+        className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
 
       <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
