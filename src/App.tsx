@@ -1045,17 +1045,24 @@ function App() {
         </p>
       </div>
 
-      {/* Grade de 4 imagens lado a lado */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        {[1, 2, 3, 4].map((num) => (
-          <div
-            key={num}
-            className="rounded-xl overflow-hidden bg-pink-900/30 border border-pink-500/20"
-          >
-            <div className="aspect-[4/3]">
-              <img src="/moon3.png" alt={`KS Story ${num}`} className="w-full h-full object-cover" />
-            </div>
-          </div>
+   {/* Grade de 4 imagens lado a lado */}
+<div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+  {["moon1.png", "moon2.png", "moon3.png", "moon4.png"].map((img, index) => (
+    <div
+      key={index}
+      className="rounded-xl overflow-hidden bg-pink-900/30 border border-pink-500/20"
+    >
+      <div className="aspect-[4/3]">
+        <img
+          src={`/${img}`}
+          alt={`KS Story ${index + 1}`}
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+  ))}
+</div>
+
         ))}
       </div>
     </div>
