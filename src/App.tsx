@@ -124,35 +124,59 @@ function App() {
 
 
 
-      {/* $KS Token */}
-      <div className="bg-gradient-to-br from-yellow-900/50 to-orange-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-yellow-500/20">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
-            $KS Token
-          </h2>
-          <p className="text-base sm:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            $KS is the native utility token that fuels Kitt's AI operations. <br />
-            From data streaming to auto-trading, KS tokens unlock features, prioritize access, and sustain her growth.
-          </p>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-4">
-            <img src="/SithLord2.png" alt="sith" className="w-full h-auto object-contain rounded-2xl" />
-          </div>
-          <div className="space-y-6">
-            <div className="bg-black/30 rounded-2xl p-6">
-              <h3 className="text-2xl font-bold text-yellow-400 mb-4">Token Utility</h3>
-              <ul className="space-y-3 text-gray-200">
-                <li className="flex items-center gap-3"><Sparkles className="text-yellow-400" size={20} />Unlock advanced AI features</li>
-                <li className="flex items-center gap-3"><Sparkles className="text-yellow-400" size={20} />Priority access to trading calls</li>
-                <li className="flex items-center gap-3"><Sparkles className="text-yellow-400" size={20} />Tiered access system (5 tiers)</li>
-                <li className="flex items-center gap-3"><Sparkles className="text-yellow-400" size={20} />Access to Kitt AI Trading Bot (Coming Soon)</li>
-                <li className="flex items-center gap-3"><Sparkles className="text-yellow-400" size={20} />Fuel for AI operations</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+ {/* $KS Token */}
+<div className="bg-gradient-to-br from-yellow-900/50 to-orange-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-yellow-500/20">
+  <div className="text-center mb-8">
+    <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 tracking-tight">
+      $KS Token
+    </h2>
+    <p className="text-lg sm:text-[1.15rem] text-gray-100 max-w-2xl mx-auto leading-relaxed">
+      $KS is the native utility token that fuels Kitt's AI operations. <br />
+      From data streaming to auto-trading, KS tokens unlock features, prioritize access, and sustain her growth.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-6 sm:gap-10 items-center">
+    {/* Imagem à esquerda — levemente menor e centralizada */}
+    <div className="flex justify-center">
+      <img
+        src="/SithLord2.png"
+        alt="sith"
+        className="w-full max-w-[300px] sm:max-w-[360px] h-auto object-contain rounded-2xl mx-auto"
+      />
+    </div>
+
+    {/* Conteúdo à direita — tipografia maior e mais legível */}
+    <div className="space-y-6">
+      <div className="bg-black/30 rounded-2xl p-6 sm:p-7">
+        <h3 className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-4">Token Utility</h3>
+        <ul className="space-y-3 text-gray-100">
+          <li className="flex items-center gap-3">
+            <Sparkles className="text-yellow-400" size={26} />
+            <span className="text-lg sm:text-xl">Unlock advanced AI features</span>
+          </li>
+          <li className="flex items-center gap-3">
+            <Sparkles className="text-yellow-400" size={26} />
+            <span className="text-lg sm:text-xl">Priority access to trading calls</span>
+          </li>
+          <li className="flex items-center gap-3">
+            <Sparkles className="text-yellow-400" size={26} />
+            <span className="text-lg sm:text-xl">Tiered access system (5 tiers)</span>
+          </li>
+          <li className="flex items-center gap-3">
+            <Sparkles className="text-yellow-400" size={26} />
+            <span className="text-lg sm:text-xl">Access to Kitt AI Trading Bot (Coming Soon)</span>
+          </li>
+          <li className="flex items-center gap-3">
+            <Sparkles className="text-yellow-400" size={26} />
+            <span className="text-lg sm:text-xl">Fuel for AI operations</span>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
+</div>
+
 
       {/* Bottom Social (kept as-is) */}
     </div>
