@@ -1110,7 +1110,7 @@ function App() {
               { id: 'guide', label: 'Starter Guide', icon: '🚀' },
               { id: 'trading', label: 'Trading Bot', icon: '🤖' },
               // Nova aba depois de Trading Bot:
-              { id: 'history', label: 'KS History', icon: '📜' }, // troque para 'KS Story' se preferir tom narrativo
+              { id: 'history', label: 'KS History', icon: '📖' }, // troque para 'KS Story' se preferir tom narrativo
             ].map((tab) => (
               <button
                 key={tab.id}
