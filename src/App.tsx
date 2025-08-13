@@ -1013,7 +1013,7 @@ const KSHistoryPage = () => (
       <img
         src="/moon3.png"
         alt="Spinning Kitty Tribute"
-        className="w-full h-auto object-contain rounded-2xl mx-auto"
+         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
       />
 
       <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
@@ -1022,12 +1022,7 @@ const KSHistoryPage = () => (
         she pulled us all into her orbit.
       </p>
 
-      {/* Segunda imagem */}
-      <img
-        src="/moon3.png"
-        alt="Memes and Chaos"
-        className="w-full h-auto object-contain rounded-2xl mx-auto"
-      />
+
 
       <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
         We laughed, we memed, we spammed timelines.
@@ -1037,14 +1032,7 @@ const KSHistoryPage = () => (
       <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
         She wasn’t AI. She wasn’t code. She was community.
         She was the spark that lit the path we walk today.
-      </p>
-
-      {/* Terceira imagem */}
-      <img
-        src="/moon3.png"
-        alt="Community Spirit"
-        className="w-full h-auto object-contain rounded-2xl mx-auto"
-      />
+    
 
       <p className="text-lg sm:text-xl text-gray-100 leading-relaxed">
         From those wild, early days to the polished, AI Kitt you see now,
@@ -1055,12 +1043,6 @@ const KSHistoryPage = () => (
         Here’s to the origins, the old memes, and the journey that brought us here.
         <br />The Kitty Keeps Spinning!
       </p>
-
-      {/* Imagem final */}
-      <img
-        src="/moon3.png"
-        alt="The Kitty Keeps Spinning"
-        className="w-full h-auto object-contain rounded-2xl mx-auto"
       />
     </div>
   </div>
