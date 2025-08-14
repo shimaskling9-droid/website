@@ -796,7 +796,7 @@ function App() {
           
           <div className="space-y-6">
             <div className="bg-black/30 rounded-2xl p-6">
-              <h3 className="text-2xl font-semibold text-orange-300 mb-3">3.1 Autonomous Trading Engine (Phase 1 Live)</h3>
+              <h3 className="text-2xl font-semibold text-orange-300 mb-3">3.1 Autonomous Trading Engine</h3>
               <ul className="space-y-2 text-gray-200">
                 <li>Executes live trades using pooled KS treasury funds.</li>
                 <li>Supports multiple simultaneous strategies per market pair.</li>
