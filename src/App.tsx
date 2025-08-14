@@ -727,7 +727,7 @@ function App() {
       
       <div className="bg-gradient-to-br from-red-900/50 to-orange-900/50 rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-red-500/20 space-y-8">
         <section>
-          <h2 className="text-2xl sm:text-3xl font-bold text-red-400 mb-4">Kitt AI Auto-Trading</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-red-400 mb-4">Kitt AI Auto-Trading - Phase 1 Live</h2>
           
           <div className="bg-black/30 rounded-2xl p-6 mb-6">
             <h3 className="text-2xl font-semibold text-orange-300 mb-3">Executive Summary</h3>
