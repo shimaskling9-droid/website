@@ -1099,7 +1099,7 @@ function App() {
         <div className="container mx-auto px-4 sm:px-6 py-4">
           <div className="flex items-center justify-between gap-4 flex-col md:flex-row">
             <div className="flex items-center gap-3 self-start md:self-auto">
-              <img src="/Pixel.jpg" alt="Kitt AI" className="w-10 h-10 rounded-full" />
+              <img src="/pixelabs.webp" alt="Kitt AI" className="w-10 h-10 rounded-full" />
               <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                 Kitt AI
               </h1>
