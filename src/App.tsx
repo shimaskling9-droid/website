@@ -49,7 +49,7 @@ function App() {
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative z-10">
           <img
-            src="/newbanner-2.png"
+            src="/newbanner-2_upscaled.png"
             alt="Kitt AI - Cybercats in Alley"
             className="w-full h-auto max-h-72 sm:max-h-96 object-contain rounded-2xl mb-6 sm:mb-8"
           />
