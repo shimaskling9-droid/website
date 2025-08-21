@@ -55,7 +55,7 @@ function App() {
           />
           <div className="text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <img src="/Pixel.jpg" alt="Kitt AI Icon" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
+              <img src="/pixelabs.webp" alt="Kitt AI Icon" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
               <h1 className="text-4xl sm:text-6xl font-bold text-white">Kitt AI</h1>
             </div>
             <p className="text-lg sm:text-2xl text-purple-200 mb-6 max-w-3xl mx-auto leading-relaxed">
