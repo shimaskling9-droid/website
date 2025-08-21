@@ -49,7 +49,7 @@ function App() {
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative z-10">
           <img
-            src="/banner6.jpg"
+            src="/newbanner-2.png"
             alt="Kitt AI - Cybercats in Alley"
             className="w-full h-auto max-h-72 sm:max-h-96 object-contain rounded-2xl mb-6 sm:mb-8"
           />
@@ -107,12 +107,12 @@ function App() {
     {/* Direita: imagens ligeiramente menores, Totoro em cima, mesmas margens */}
     <div className="flex flex-col items-center justify-center gap-5">
       <img
-        src="/totoro2.png"
+        src="/abs1.png"
         alt="Totoro"
         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
       />
       <img
-        src="/moon3.png"
+        src="/InShot_20250822_010640048.gif"
         alt="Moon"
         className="w-full max-w-[280px] sm:max-w-[320px] h-auto object-contain rounded-2xl mx-auto"
       />
