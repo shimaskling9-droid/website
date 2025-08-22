@@ -135,7 +135,7 @@ function App() {
           {/* Imagem à esquerda */}
           <div className="flex justify-center">
             <img
-              src="/SithLord2.png"
+              src="/luigi.png"
               alt="sith"
               className="w-full max-w-[300px] sm:max-w-[360px] h-auto object-contain rounded-2xl mx-auto"
             />
