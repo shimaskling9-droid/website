@@ -545,7 +545,7 @@ function App() {
                     ✅ Automatic 2H & 4H Calls
                   </p>
                   <ul className="space-y-1 text-gray-200 ml-4 text-sm">
-                    <li>Same metrics as Twitter, sent directly to your DM</li>
+                    <li>Pick a concise, metric‐based top trending token that has passed basic safety, volume, price, and growth checks</li>
                     <li>Includes tokens that have existed for at least 2 or 4 hours</li>
                     <li>Graded based on 2H/4H metrics</li>
                     <li>Our safest calls ideal for low-risk traders</li>
