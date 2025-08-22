@@ -59,7 +59,7 @@ function App() {
               <h1 className="text-4xl sm:text-6xl font-bold text-white">Kitt AI</h1>
             </div>
             <p className="text-lg sm:text-2xl text-purple-200 mb-6 max-w-3xl mx-auto leading-relaxed">
-              From the depths of code, a chibi girl blinked into the Solana Blockchain.<br />
+              From the depths of code, a chibi girl blinked into the Abstract Blockchain.<br />
               Small, curious, and already smarter than most traders.<br />
               She learns faster than the market moves, adapting with every chart.
             </p>
@@ -600,7 +600,7 @@ function App() {
                       🔍 Example Usage:
                     </p>
                     <ul className="space-y-1 text-gray-200 ml-4 text-sm">
-                      <li>Can you explain how priority fees works on Solana as well as slippage?</li>
+                      <li>Can you explain how priority fees works on Abstract as well as slippage?</li>
                       <li>Give me a report on &lt;token address&gt;</li>
                       <li>Analyze this chart in details, what are some possible resistance points, entry points and what should my stop loss be? (Please attach chart image)</li>
                       <li>Analyze this chart and give me a prediction for the next 4 hours. Be as detailed as possible. (Please attach chart image)</li>
@@ -1150,7 +1150,7 @@ function App() {
             <SocialButtons />
           </div>
           <p className="text-gray-400">
-            © 2025 Kitt AI. From the depths of code to the Solana Blockchain.
+            © 2025 Kitt AI. From the depths of code to the Abstract Blockchain.
           </p>
         </div>
       </footer>
