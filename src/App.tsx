@@ -59,7 +59,7 @@ function App() {
               <h1 className="text-4xl sm:text-6xl font-bold text-white">Kitt AI</h1>
             </div>
             <p className="text-lg sm:text-2xl text-purple-200 mb-6 max-w-3xl mx-auto leading-relaxed">
-              From the depths of code, a chibi girl blinked into the Abstract Blockchain.<br />
+              From the depths of code, a chibi girl blinked into Abstract Blockchain.<br />
               Small, curious, and already smarter than most traders.<br />
               She learns faster than the market moves, adapting with every chart.
             </p>
