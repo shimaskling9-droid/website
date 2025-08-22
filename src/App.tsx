@@ -570,7 +570,7 @@ function App() {
                     ✅ Historical Data for Automatic 2H & 4H Calls
                   </p>
                   <ul className="space-y-1 text-gray-200 ml-4 text-sm">
-                    <li>Unlike free Twitter and Tier 1 calls, these leverage historical data and factor in past liquidity shifts</li>
+                    <li>Unlike Tier 1 calls, these leverage historical data and factor in past liquidity shifts</li>
                     <li>Safe calls ideal for low-risk traders</li>
                   </ul>
                 </div>
